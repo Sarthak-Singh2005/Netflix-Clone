@@ -1,0 +1,270 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+.mainnetflixContainer {
+    padding: 1rem 2rem;
+}
+.contentcontainer {
+    position: relative;
+    width: 100%;
+}
+.navContanier {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.UpperNavbarSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.upperNavbarLeftSection img {
+    display: block;
+}
+.upperNavbarRightSection {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.Language {
+    background-color: black;
+    color: white;
+    padding: 6px;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-size: 16px;
+}
+.Button {
+    font-size: 18px;
+    color: white;
+    background-color: red;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.lowerNavbarSection {
+    display: flex;
+    justify-content: center;
+}
+.menulist {
+    display: flex;
+    gap: 1rem;
+    list-style: none;
+    padding: 0.5rem 1rem;
+    background: rgba(44, 49, 50, 0.8);
+    border-radius: 20px;
+}
+.menulistitem {
+    color: white;
+    cursor: pointer;
+}
+.bannersection {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 500px;
+    background: linear-gradient(rgba(0, 0, 0, 0.65), rgba(0, 0, 0, 0.3)), url("../assets/backgrounds/netflix-background.jpg") center/cover no-repeat;
+    border-radius: 20px;
+    margin-top: 1rem;
+}
+.bannercontent {
+    text-align: center;
+    padding: 2rem;
+}
+.head {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+.email {
+    padding: 14px;
+    width: 320px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin: 1rem 0;
+}
+.getst {
+    background-color: red;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.carouaselsection {
+    margin-top: 2rem;
+}
+.trebdingnow {
+    margin-left: 1rem;
+}
+.carouselcardcontainer {
+    display: flex;
+    gap: 1rem;
+    overflow-x: auto;
+    padding: 1rem;
+}
+.carouselcard {
+    flex: 0 0 16%;
+    min-width: 180px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    background: #111;
+}
+.carouselnumbercontainer {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+    z-index: 1;
+}
+.no {
+    font-size: 2rem;
+    color: white;
+}
+.carouselimagecontainer img {
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.plansection {
+    margin-top: 2rem;
+}
+.heading {
+    margin-left: 1rem;
+    color: white;
+}
+.planscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.planbox {
+    flex: 1 1 220px;
+    padding: 1rem;
+    border-radius: 16px;
+    color: white;
+}
+.planbox1, .planbox2 {
+    background-color: rgb(110, 4, 64);
+}
+.planbox3, .planbox4 {
+    background-color: rgb(222, 128, 40);
+}
+.contentofjoin {
+    margin: 0.5rem 0;
+}
+.price {
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+.reasontojoin {
+    margin-top: 2rem;
+    padding: 1rem 0;
+}
+.Reason {
+    margin-left: 1rem;
+}
+.reasobox {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    margin-top: 1rem;
+}
+.sub {
+    flex: 1 1 220px;
+    padding: 1rem;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 16px;
+    background: rgba(76, 21, 101, 0.17);
+}
+.subheading {
+    margin-bottom: 0.5rem;
+}
+.faqsection {
+    margin-top: 2rem;
+}
+.faqtittle {
+    margin-left: 1rem;
+    color: white;
+}
+.faqcontent {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+.faqct {
+    padding: 1rem;
+    border-radius: 10px;
+    background-color: rgba(112, 83, 126, 0.17);
+    font-size: 1rem;
+}
+.getstarted {
+    margin-top: 2rem;
+    text-align: center;
+}
+.h4start {
+    color: white;
+}
+.mailsection {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+}
+.mail {
+    padding: 14px;
+    width: 320px;
+    border-radius: 15px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.mailbutton {
+    background-color: red;
+    color: white;
+    padding: 14px 28px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.footer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+    margin-top: 2rem;
+    color: white;
+}
+.footercontent {
+    color: white;
+    text-decoration: none;
+}
+@media (max-width: 760px) {
+    .bannersection {
+        min-height: 400px;
+    }
+    .carouselcard {
+        flex: 0 0 45%;
+    }
+    .planscontainer {
+        flex-direction: column;
+    }
+    .reasobox {
+        flex-direction: column;
+    }
+}
